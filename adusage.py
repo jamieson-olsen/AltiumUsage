@@ -1,10 +1,6 @@
 # Python code to process the license usage CSV file from the
 # Altium Concord Pro Vault
 # Jamieson Olsen <jamieson@fnal.gov>
-#
-# the lines in the input CSV should record usage for a product per user like this:
-# Altium Designer;3RS5-YAW2;Artur Galt;All Users;2021;146 hours;11 hours;2
-# in this case the data is grouped by year.
 
 import csv
 import sys
@@ -172,8 +168,10 @@ with open(sys.argv[1], 'r') as csv_file:
     UHlist=sorted((value, key) for (key,value) in UserHoursDB.items())
     SortedUserHoursDB=dict([(k,v) for v,k in UHlist])
 
+    print("\nTotal Altium Designer usage is %.1f license-hours" % TotalHours)
+
     for div,hours in DivHoursDB.items():
-        print("\nDivision %s %.1f hours (%3.1f%%)" % (div,hours,(hours/TotalHours)*100))
+        print("\nDivision %s %.1f license-hours (%3.1f%%)" % (div,hours,(hours/TotalHours)*100))
         for user,hours in SortedUserHoursDB.items():
             if UserDivDB[user]==div:
                 print("\t%.1f\t%s" % (hours, user))
