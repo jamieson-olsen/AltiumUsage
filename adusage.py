@@ -66,6 +66,10 @@ UserDivDB = {
 "Yesenia Govea-Vargas":"AD",
 "Joseph Flores":"AD",
 "Steven Hays":"AD",
+"Adam Koscielak":"AD",
+"Susanna Eschbach":"AD",
+"Jeff Simmons":"AD",
+"Steve Rocos":"AD",
 
 "Adam Anderson":"PPD",
 "Albert Dyer":"PPD",
@@ -99,6 +103,8 @@ UserDivDB = {
 "Vadim Rusu":"PPD",
 "Vadim Rusu":"PPD",
 "Walt Jaskerney":"PPD",
+"Tom Deline":"PPD",
+"Ashif Reza":"PPD",
 
 "Alan Prosser":"SCD",
 "Andres Quintero Parra":"SCD",
@@ -112,6 +118,7 @@ UserDivDB = {
 "Ted Zmuda":"SCD",
 "Divya Sirikonda":"SCD",
 "Waqar Ahmed":"SCD",
+"Mike Quinlan":"SCD",
 
 "Artur Galt":"STD",
 "Adam Wixson":"STD",
