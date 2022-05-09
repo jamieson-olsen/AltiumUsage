@@ -29,7 +29,6 @@ UserDivDB = {
 "Brian Vaughn":"AD",
 "Aisha Ibrahim":"AD",
 "Craig Drennan":"AD",
-"Daniel Eddy":"AD",
 "Pete Dimovski":"AD",
 "Rick Divelbiss":"AD",
 "Ed Cullerton":"AD",
@@ -105,6 +104,7 @@ UserDivDB = {
 "Walt Jaskerney":"PPD",
 "Tom Deline":"PPD",
 "Ashif Reza":"PPD",
+"Waqar Ahmed":"PPD",
 
 "Alan Prosser":"SCD",
 "Andres Quintero Parra":"SCD",
@@ -117,25 +117,30 @@ UserDivDB = {
 "Neal WIlcer":"SCD",
 "Ted Zmuda":"SCD",
 "Divya Sirikonda":"SCD",
-"Waqar Ahmed":"SCD",
-"Mike Quinlan":"SCD",
 
-"Artur Galt":"STD",
-"Adam Wixson":"STD",
-"Cristian Arcola":"STD",
-"Daniil Frolov":"STD",
-"Alex Irigoyen":"STD",
-"Krzysztof Kompiel":"STD",
-"Andrzej Makulski":"STD",
-"Mohamed Hassan":"STD",
-"Omar Al Atassi":"STD",
-"Darryl Orris":"STD",
-"Paul Dubiel":"STD",
-"Roman Pilipenko":"STD",
-"Tom Cummings":"STD",
-"Tom Thode":"STD",
-"Ugur Alyanak":"STD",
-"Warren Schappert":"STD"
+"Artur Galt":"APS-TD-TI",
+"Adam Wixson":"APS-TD-TI",
+"Cristian Arcola":"APS-TD-TI",
+"Andrzej Makulski":"APS-TD-TI",
+"Krzysztof Kompiel":"APS-TD-TI",
+"Tom Cummings":"APS-TD-TI",
+"Darryl Orris":"APS-TD-TI",
+"Daniel Eddy":"APS-TD-TI",
+
+"Alex Irigoyen":"APS-TD-SRF",
+"Mohamed Hassan":"APS-TD-SRF",
+"Paul Dubiel":"APS-TD-SRF",
+"Roman Pilipenko":"APS-TD-SRF",
+
+"Omar Al Atassi":"APS-TD-CRYO",
+
+"Tom Thode":"APS-TD-MAG",
+
+"Ugur Alyanak":"APS-TD-SRF",
+"Warren Schappert":"APS-TD-SRF",
+"Mike Quinlan":"APS-TD-SRF",
+
+"Daniil Frolov":"NQI"
 } 
 
 UserHoursDB = {} # number of hours each user used a license
@@ -178,7 +183,7 @@ with open(sys.argv[1], 'r') as csv_file:
     print("\nTotal Altium Designer usage is %.1f license-hours" % TotalHours)
 
     for div,hours in DivHoursDB.items():
-        print("\nDivision %s %.1f license-hours (%3.1f%%)" % (div,hours,(hours/TotalHours)*100))
+        print("\nDivision-Dept %s %.1f license-hours (%3.1f%%)" % (div,hours,(hours/TotalHours)*100))
         for user,hours in SortedUserHoursDB.items():
             if UserDivDB[user]==div:
                 print("\t%.1f\t%s" % (hours, user))
