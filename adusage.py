@@ -51,7 +51,6 @@ UserDivDB = {
 "James McTeague":"AD",
 "Dan Munger":"AD",
 "Nick Gurley":"AD",
-"Joe Pastika":"AD",
 "Dave Peterson":"AD",
 "Rich Prokop":"AD",
 "Brian Schupbach":"AD",
@@ -87,6 +86,7 @@ UserDivDB = {
 "Johnny Green":"PPD",
 "Jamieson Olsen":"PPD",
 "Jamieson Olsen (Vault Admin)":"PPD",
+"Joe Pastika":"PPD",
 "Juan Vega":"PPD",
 "Jin-Yuan Wu":"PPD",
 "Terry Kiper":"PPD",
@@ -183,7 +183,7 @@ with open(sys.argv[1], 'r') as csv_file:
     print("\nTotal Altium Designer usage is %.1f license-hours" % TotalHours)
 
     for div,hours in DivHoursDB.items():
-        print("\nDivision-Dept %s %.1f license-hours (%3.1f%%)" % (div,hours,(hours/TotalHours)*100))
+        print("\nDivision-Dept %s %.1f license-hours (%3.10f%%)" % (div,hours,(hours/TotalHours)*100))
         for user,hours in SortedUserHoursDB.items():
             if UserDivDB[user]==div:
                 print("\t%.1f\t%s" % (hours, user))
