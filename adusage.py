@@ -16,6 +16,8 @@ UserDivDB = {
 
 "Mark Zientarski":"ESH",
 "Adam Olson":"ESH",
+"Tom Houlahan":"ESH",
+"Jeff Putney":"ESH",
 
 "Andrew Feld":"ACCELERATORS",
 "Alyssa Miller":"ACCELERATORS",
@@ -72,6 +74,18 @@ UserDivDB = {
 "Chris Izzo":"ACCELERATORS",
 "Dustin Pieper":"ACCELERATORS",
 "Matthew Domeier":"ACCELERATORS",
+"Matt Saewert":"ACCELERATORS",
+"Alexander Quilty":"ACCELERATORS",
+"Gilberto Perez":"ACCELERATORS",
+"Andrew Whitbeck":"ACCELERATORS",
+"Sabri Shawar":"ACCELERATORS",
+"David Capetillo":"ACCELERATORS",
+"Jonathan Eisch":"ACCELERATORS",
+"Mike Coleman":"ACCELERATORS",
+"Shengli Liu":"ACCELERATORS",
+"Spencer Garcia-Schiefelbein":"ACCELERATORS",
+"Chris Olsen":"ACCELERATORS",
+
 
 "Adam Anderson":"PARTICLE PHYSICS",
 "Albert Dyer":"PARTICLE PHYSICS",
@@ -109,6 +123,8 @@ UserDivDB = {
 "Ashif Reza":"PARTICLE PHYSICS",
 "Waqar Ahmed":"PARTICLE PHYSICS",
 "Jacques Ntahoturi":"PARTICLE PHYSICS",
+"Yash Saxena":"PARTICLE PHYSICS",
+"Manuel Arroyave":"PARTICLE PHYSICS",
 
 # Neutrino Division folks now under PPD 
 
@@ -128,6 +144,7 @@ UserDivDB = {
 "Neal Wilcer":"COMPUTATIONAL SCIENCE",
 "Ted Zmuda":"COMPUTATIONAL SCIENCE",
 "Divya Sirikonda":"COMPUTATIONAL SCIENCE",
+"Joe Kaminski":"COMPUTATIONAL SCIENCE",
 
 # Combining various APSTD departments now under single directorate
 
@@ -150,6 +167,14 @@ UserDivDB = {
 "Mike Quinlan":"APSTD",
 "Alexander Hogberg":"APSTD",
 
+"Sanskriti Joshi":"VISITOR",
+"Parker Adamski":"VISITOR",
+"Elena Pedreschi":"VISITOR",
+"Elena Pedreschi":"VISITOR",
+
+"David Van Zanten":"EMERGING TECHNOLOGIES",
+"Yulia Krasnikova":"EMERGING TECHNOLOGIES",
+"Geev Nahal":"EMERGING TECHNOLOGIES",
 "Daniil Frolov":"EMERGING TECHNOLOGIES",
 "Silvia Zorzetti":"EMERGING TECHNOLOGIES"
 } 
